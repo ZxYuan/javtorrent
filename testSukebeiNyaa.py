@@ -2,6 +2,7 @@
 # I like strong zero from suntory, yeah now it's true that im a little drunk...
 # maybe it seems better to refer to different torrent website...but strong zero is really exciting
 
+#!/bin/python
 # -*- coding: utf-8 -*-
 import sys
 import urllib2

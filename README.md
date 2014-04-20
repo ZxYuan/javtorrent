@@ -3,9 +3,7 @@ javtorrent
 
 及时行乐
 
-Usage:
-
-python javtorrent.py RCT-554
+Usage:	python javtorrent.py RCT-554
 
 =======
 TODO: Add info of  other torrent-dl websites.

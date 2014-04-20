@@ -34,6 +34,9 @@ if __name__=="__main__":
 	soup = BeautifulSoup(html_doc, 'lxml')
 	#print soup
 	download_list = soup.findAll("a",{ "title" : "Download torrent file" })
+	seed_num_list = soup.findAll('td',{'class' : 'green center'})
+	for seed_num in seed_num_list:
+		print seed_num.string
 	if len(download_list) == 0:
 		print "I can't find the torrent. Plz help urself."
 		sys.exit(1)

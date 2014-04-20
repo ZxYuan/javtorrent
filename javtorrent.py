@@ -11,7 +11,7 @@ headers = {'User-Agent':'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.
 
 url_base = ['http://sukebei.nyaa.se/?term=',
 			'http://kickass.to/usearch/']
-banngou = 'RCT-554'
+banngou = 'ABP-119'
 
 # unzip gzip html doc
 def unzip(data):

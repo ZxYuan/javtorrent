@@ -9,8 +9,7 @@ from bs4 import BeautifulSoup
 
 headers = {'User-Agent':'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6'}
 
-url_base = ['http://sukebei.nyaa.se/?term=',
-			'http://kickass.to/usearch/']
+url_base = ['http://sukebei.nyaa.se/?term=', 'http://kickass.to/usearch/']
 banngou = 'ABP-119'
 
 # unzip gzip html doc

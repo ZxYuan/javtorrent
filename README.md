@@ -1,14 +1,11 @@
-javtorrent_dl
+javtorrent
 =============
 
-U guys deserve it
+及时行乐
 
-e.g. 
-python testSukebeiNyaa.py RCT-554
-
----------------------------
-
-Now info from sukebeiNyaa and kissass.to, with ugly code format.
+usage e.g. 
+	python javtorrent.py RCT-554
 
 =======
 TODO: Add info of  other torrent-dl websites.
+bug1: some torrents from kickass may not work well

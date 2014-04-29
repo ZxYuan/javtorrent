@@ -1,4 +1,4 @@
-# TODO: Fix bug1
+# TODO: Fix bug1, kickass.to related
 
 #!/bin/python
 # -*- coding: utf-8 -*-
@@ -63,7 +63,7 @@ def searchTorrent():
 				print '...find ' + banngou + ' ' + download_list[0]['href']
 				return download_list[0]['href']
 		else:
-			#TODO: Add other torrent-dl website
+			#TODO: Add other torrent-dl websites
 			continue
 	print 'Cannot find ' + banngou + '. Google it by yourself.' 
 	sys.exit(1)
